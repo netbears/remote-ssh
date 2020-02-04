@@ -4,4 +4,4 @@ RUN  apt-get update && apt-get install -y python3-pip bash jq wget ssh && pip3 i
 
 COPY ssh_config ~/.ssh/config
 
-COMMAND ["ls -altr"]
+CMD ["ls -altr"]
